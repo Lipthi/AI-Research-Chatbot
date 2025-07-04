@@ -1,6 +1,6 @@
 ## ACKNOWLEDGEMENT
 This project is inspired by (https://github.com/techwithtim/PythonAIAgentFromScratch.git).
-Their work laid the foundation for this research bot.
+Their work laid the foundation for this research bot and I have modified it for offline use and simplicity.
 
 # Local Research Chatbot using Ollama
 
