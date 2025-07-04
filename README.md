@@ -14,7 +14,7 @@ It fetches info from Wikipedia and DuckDuckGo, summarizes it with an LLM, and sa
 2. Create and Activate a Virtual Environment
 
 3. Install Dependencies
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
    This will install:
    langchain
    langchain-community
@@ -25,7 +25,7 @@ It fetches info from Wikipedia and DuckDuckGo, summarizes it with an LLM, and sa
    duckduckgo-search (installed as a sub-dependency)
 
 4. Install and Run Ollama
-   ollama run phi3
+   `ollama run phi3`
 
 5. Configure Environment Variables (Optional)
    If you later decide to use APIs like OpenAI or Anthropic, you can use a .env file.
@@ -33,7 +33,7 @@ It fetches info from Wikipedia and DuckDuckGo, summarizes it with an LLM, and sa
    For now, since **Ollama** is local, you don’t need any API keys.
 
 6. Run the Application
-   python main.py
+   `python main.py`
    You’ll be prompted with:
    "What can I help you research?"
    Type your query and get a clean summary. The response will also be saved to research_output.txt.
