@@ -1,2 +1,4 @@
 .env
-.research_output.txt
+research_output.txt
+__pycache__/
+*.pyc
